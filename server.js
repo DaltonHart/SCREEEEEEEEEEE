@@ -20,6 +20,10 @@ app.get("/theking", (req, res) => {
   res.send("Adondon");
 });
 
+app.get("/ships", (req, res) => {
+  res.send("hello :)");
+});
+
 /* Server Bind */
 app.listen(PORT, () => {
   console.log(`PEWW PEW live at port ${PORT}`);
