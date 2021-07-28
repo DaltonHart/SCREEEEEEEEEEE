@@ -1,0 +1,29 @@
+{
+  "name": "screeeeeeeeeee",
+  "version": "1.0.0",
+  "description": "A starwars app around ships",
+  "main": "server.js",
+  "scripts": {
+    "watch-sass": "sass --watch sass:public/styles",
+    "watch-nodemon": "nodemon",
+    "dev": "concurrently -n sass,server -c 'bgMagenta.bold,bgGreen.bold' 'npm:watch-sass' 'npm:watch-nodemon'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaltonHart/SCREEEEEEEEEEE.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaltonHart/SCREEEEEEEEEEE/issues"
+  },
+  "homepage": "https://github.com/DaltonHart/SCREEEEEEEEEEE#readme",
+  "devDependencies": {
+    "concurrently": "^6.2.0",
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+}
