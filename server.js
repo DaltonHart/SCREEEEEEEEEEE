@@ -16,9 +16,13 @@ app.get("/", (req, res) => {
   res.send("Screeeeee");
 });
 
-app.get('/ships', function(req, res){
-  res.send('hello :)')
-})
+app.get("/theking", (req, res) => {
+  res.send("Adondon");
+});
+
+app.get("/ships", (req, res) => {
+  res.send("hello :)");
+});
 
 /* Server Bind */
 app.listen(PORT, () => {
