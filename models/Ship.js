@@ -1,6 +1,6 @@
 class Ship {
   constructor(data) {
-    this.firepower = data. alliance;
+    this.firepower = data.firepower;
     this.shipType = data.shipType;
     this.alliance = data.alliance;
     this.id = this.#generateId();
