@@ -16,7 +16,6 @@ app.get("/", (req, res) => {
   res.send("Screeeeee");
 });
 
-
 app.get('/ships', function(req, res){
   res.send('hello :)')
 })
